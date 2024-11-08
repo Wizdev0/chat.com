@@ -416,6 +416,11 @@ input:focus{
     margin-left: 4.5%;
 }
 
+    input:focus{
+    border: none;
+    outline: none;
+}
+
 
 .description{
     margin-bottom: 20px;
