@@ -315,6 +315,13 @@ input{
     margin-left: 10px;
 }
 
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+
 .send{
     display: flex;
     justify-content: center;
