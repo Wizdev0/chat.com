@@ -315,12 +315,10 @@ input{
     margin-left: 10px;
 }
 
-
 input:focus{
     border: none;
     outline: none;
 }
-
 
 .send{
     display: flex;
@@ -351,9 +349,7 @@ input:focus{
     opacity: 0.7;
 }
 
-@media only screen and (max-width: 600px) {
-        
-
+@media only screen and (max-width: 600px){
     br{
         display: none;
     }
@@ -403,7 +399,7 @@ input:focus{
 }
 
 .letter{
-    line-height: ;
+
     width: 90%;
     height: 50%;
     display: flex;
@@ -416,11 +412,6 @@ input:focus{
     margin-left: 4.5%;
 }
 
-    input:focus{
-    border: none;
-    outline: none;
-}
-
 
 .description{
     margin-bottom: 20px;
@@ -428,4 +419,89 @@ input:focus{
     display: flex;
     justify-content: center;
 }
+
+input:focus{
+    border: none;
+    outline: none;
+}
 }       
+
+
+@media only screen  and (min-width:600px) and (max-width:768px)  {
+    br{
+        display: none;
+    }
+.rectangle{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    border-radius: 0 0 300px 0 ;
+    overflow-x: clip;
+    background: linear-gradient(to bottom, rgb(224, 14, 224), rgba(185, 8, 185, 0.75));
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.circle{
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+    background: linear-gradient(to bottom,  rgb(224, 14, 224), rgb(189, 5, 189));
+    z-index: 1;
+}
+
+
+.phone-mockup{
+    position: relative;
+    width: 40%;
+    height: 30%;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0.2);
+    overflow: hidden;
+    z-index: 2;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+
+.finish{
+    position: absolute;
+    left: 80%;
+    top: 25%;
+    font-family: sans-serif;
+}
+
+.letter{
+
+    width: 200%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    opacity: 0.7;
+    line-break: none;
+/*     margin-left: 4.5%; */
+}
+
+
+.description{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 200%;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+}
